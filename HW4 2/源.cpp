@@ -163,8 +163,6 @@ int main() {
 
 	cout << " what is car make ?" << endl;
 	cin >> make;
-	cout << " what is car make ?" << endl;
-	cin >> make;
 	cout << " what is car model ?" << endl;
 	cin >> model;
 	cout << " what is car color ?" << endl;
