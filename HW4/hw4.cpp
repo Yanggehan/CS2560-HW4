@@ -56,14 +56,18 @@ int main()
 			computer += d1.roll() + d2.roll();
 			user += d1.roll() + d2.roll();
 			cout << "Your current total is " << user << "\n";
-			if (user > 21) {
+			if (user > 21)
+			{
+				
 				break;
 			}
-			else {
-				star = 0;
+			else 
+			{
+				
+				star = 1;
 			}
 		}
-		if (ch == 'N' || ch == 'n') {
+		else if (ch == 'N' || ch == 'n') {
 			 break;
 		}
 
@@ -87,6 +91,6 @@ int main()
 	{
 		cout << "You lose because your total got over 21\n";
 	}
-
+	system("pause");
 	return 0;
 }
