@@ -208,6 +208,7 @@ int main() {
 		//cout << " should take money:  "; 
 		//cout << " should take money:  "; 
 		cout << car3.calculateFineAmount() << endl;
+		system("pause");
 		return 0;
 	}
 
