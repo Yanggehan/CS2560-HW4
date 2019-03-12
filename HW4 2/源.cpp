@@ -208,6 +208,7 @@ int main() {
 		//cout << "Parking Ticket not required." << endl;
 		cout << " should take money:  ";
 		//cout << " should take money:  "; 
+		//cout << " should take money:  "; 
 		cout << car3.calculateFineAmount() << endl;
 		return 0;
 	}
